@@ -4,10 +4,7 @@ import "./Menu.css";
 export default function Menu(props) {
   console.log("help");
   const [test, setTest] = useState(null);
-  function handleSubmit(event) {
-    setTest(event.value);
-    console.log(event.value);
-  }
+
   return (
     <div>
       <button
