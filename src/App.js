@@ -4,9 +4,11 @@ import Menu from "./Menu";
 function App() {
   return (
     <div className="App">
-      <Menu />
       <header className="App-header">
         <h1>Explore the Brain of Emma Auger Hirner</h1>
+        <div className="Menu">
+          <Menu />
+        </div>
       </header>
       <footer className="App-footer">
         All code for this project can be found @
